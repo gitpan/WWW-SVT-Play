@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               WWW-SVT-Play
-version:            0.1
+version:            0.11
 abstract:           extract information from SVT Play
 author:
     - Olof Johansson <olof@cpan.org>
@@ -11,6 +11,7 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
+    File::Slurp:      0
     JSON:             0
     LWP::UserAgent:   0
     perl:             5.010000
