@@ -2,8 +2,8 @@ package WWW::SVT::Play::Video::Stream::HTTP;
 
 # Copyright (c) 2012 - Olof Johansson <olof@cpan.org>
 # All rights reserved.
-# 
-# This program is free software; you can redistribute it and/or 
+#
+# This program is free software; you can redistribute it and/or
 # modify it under the same terms as Perl itself.
 
 =head1 NAME
@@ -25,7 +25,7 @@ use warnings FATAL => 'all';
 use strict;
 use parent 'WWW::SVT::Play::Video::Stream';
 
-our $VERSION = 0.11;
+our $VERSION = 0.12;
 use Carp;
 
 =head2 is_http
@@ -92,7 +92,7 @@ sub bitrate {
 Copyright (c) 2012 - Olof Johansson <olof@cpan.org>
 All rights reserved.
 
-This program is free software; you can redistribute it and/or 
+This program is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself.
 
 =cut
